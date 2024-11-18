@@ -92,7 +92,7 @@ button[type="submit"] {
 }
 
 /* Animação do botão */
-button[type="submit"]:hover {
+button[class="button"]:hover {
     background-color: #2980b9;
     transform: translateY(-5px); /* Efeito de elevação */
 }
