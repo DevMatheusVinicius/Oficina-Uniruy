@@ -1,4 +1,3 @@
-/* Resetando margens e paddings para garantir consistência */
 * {
     margin: 0;
     padding: 0;
@@ -20,15 +19,15 @@ body {
 .container {
     width: 100%;
     max-width: 400px;
-    background: rgba(255, 255, 255, 0.9); /* Fundo translúcido para a área do formulário */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    backdrop-filter: blur(10px); /* Efeito de desfoque de fundo */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px); 
     text-align: center;
 }
 
-/* Cabeçalho */
+
 h1 {
     font-size: 2.5em;
     color: #2980b9;
@@ -36,14 +35,14 @@ h1 {
     font-weight: 600;
 }
 
-/* Estilos para o formulário de login */
+
 form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Labels */
+
 label {
     font-size: 1.2em;
     font-weight: bold;
@@ -51,7 +50,7 @@ label {
     margin-bottom: 8px;
 }
 
-/* Campos de input */
+
 input[type="email"],
 input[type="password"] {
     padding: 15px;
@@ -63,7 +62,7 @@ input[type="password"] {
     transition: all 0.3s ease;
 }
 
-/* Foco nos campos de input */
+
 input[type="email"]:focus,
 input[type="password"]:focus {
     border-color: #3498db;
@@ -71,7 +70,7 @@ input[type="password"]:focus {
     outline: none;
 }
 
-/* Botão de envio */
+
 button[type="submit"] {
     background-color: #3498db;
     color: #fff;
@@ -85,13 +84,13 @@ button[type="submit"] {
     text-transform: uppercase;
 }
 
-/* Animação do botão */
+
 button[type="submit"]:hover {
     background-color: #2980b9;
-    transform: translateY(-5px); /* Efeito de elevação */
+    transform: translateY(-5px); 
 }
 
-/* Link de registro */
+
 p {
     font-size: 1em;
     color: #34495e;
@@ -108,7 +107,7 @@ p a:hover {
     text-decoration: underline;
 }
 
-/* Mensagens de erro */
+
 .error-message {
     background-color: #e74c3c;
     color: #fff;
@@ -120,7 +119,7 @@ p a:hover {
     text-align: center;
 }
 
-/* Responsividade para dispositivos móveis */
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 25px;
