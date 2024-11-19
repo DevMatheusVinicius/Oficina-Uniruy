@@ -77,7 +77,7 @@ select:focus {
 }
 
 
-button[type="submit"] {
+div + a {
     background-color: #3498db;
     color: #fff;
     padding: 15px 25px;
@@ -91,7 +91,7 @@ button[type="submit"] {
 }
 
 
-button:hover {
+div + a:hover {
     background-color: #2980b9;
     transform: translateY(-5px); 
 }
