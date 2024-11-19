@@ -1,4 +1,3 @@
-/* Resetando estilos padrões para garantir consistência */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif; /* Tipografia moderna */
+    font-family: 'Poppins', sans-serif; 
     background-image: url(https://blogdaengenharia.com/wp-content/uploads/2020/09/automotive-engineer-augmented-car-design-hologram.jpg);
     background-size: cover;
     color: #fff;
@@ -18,19 +17,19 @@ body {
     align-items: center;
 }
 
-/* Contêiner principal com sombreamento e bordas arredondadas */
+
 .container {
     max-width: 800px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.9); /* Fundo semitransparente */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
     text-align: center;
-    backdrop-filter: blur(8px); /* Efeito de desfoque de fundo */
+    backdrop-filter: blur(8px); 
 }
 
-/* Cabeçalhos e texto */
+
 h1, h2, h3 {
     font-weight: 600;
     color: #2c3e50;
@@ -40,7 +39,7 @@ h1 {
     font-size: 2.8em;
     margin-bottom: 20px;
     color: #2980b9;
-    text-transform: uppercase; /* Letras maiúsculas para chamar atenção */
+    text-transform: uppercase; 
 }
 
 h2 {
@@ -55,7 +54,7 @@ p {
     color: #34495e;
 }
 
-/* Estilo de links */
+
 a {
     color: #3498db;
     text-decoration: none;
@@ -69,7 +68,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilos dos botões */
+
 button, input[type="submit"] {
     background-color: #3498db;
     color: #fff;
@@ -85,7 +84,7 @@ button, input[type="submit"] {
 
 button:hover, input[type="submit"]:hover {
     background-color: #2980b9;
-    transform: translateY(-5px); /* Efeito de animação de elevação */
+    transform: translateY(-5px); 
 }
 
 button:disabled, input[type="submit"]:disabled {
@@ -93,7 +92,7 @@ button:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
 }
 
-/* Formulários */
+
 form {
     display: flex;
     flex-direction: column;
@@ -101,7 +100,7 @@ form {
     margin-bottom: 20px;
 }
 
-/* Labels dos inputs */
+
 label {
     font-size: 1.2em;
     font-weight: bold;
@@ -109,7 +108,7 @@ label {
     margin-bottom: 8px;
 }
 
-/* Campos de Input */
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -134,7 +133,7 @@ input[type="datetime-local"]:focus {
     background-color: #fff;
 }
 
-/* Mensagens de erro e sucesso */
+
 .error-message {
     background-color: #e74c3c;
     color: #fff;
@@ -157,7 +156,7 @@ input[type="datetime-local"]:focus {
     text-align: center;
 }
 
-/* Estilos das páginas de login e registro */
+
 .page {
     margin-top: 20px;
 }
@@ -179,16 +178,16 @@ input[type="datetime-local"]:focus {
 
 .page a:hover {
     background-color: #1c6ea4;
-    transform: translateY(-5px); /* Efeito de elevação */
+    transform: translateY(-5px); 
 }
 
-/* Layout de páginas de login e registro */
+
 .login-register-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradiente de fundo */
+    background: linear-gradient(45deg, #6a11cb, #2575fc); 
 }
 
 .login-register-container .container {
@@ -207,7 +206,7 @@ h1.page-title {
     color: #2980b9;
 }
 
-/* Responsividade para dispositivos móveis */
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 20px;
