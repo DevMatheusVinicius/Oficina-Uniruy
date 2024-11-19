@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'oficina_mecanica';
-$user = 'root'; // Alterar se necessário
-$password = ''; // Alterar se necessário
+$user = 'root'; 
+$password = ''; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
